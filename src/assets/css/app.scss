@@ -7,27 +7,33 @@ body {
     margin: 0;
 
     .app {
-        background-color: #000;
-        color: #FFF;
-        font-family: rustic;
-        font-size: 30px;
-        padding: 50px;
-        text-align: center;
+        background-color: #18343c;
+        display: flex;
+        height: 100vh;
 
-        .logo {
-            height: 175px;
-        }
+        .welcome {
+            color: #FFF;
+            font-family: rustic;
+            font-size: 30px;
+            margin: auto;
+            text-align: center;
 
-        .rotate {
-            animation: spin 10s linear infinite;
-        }
+            .logo {
+                height: 250px;
+            }
 
-        h1 {
-            color: #61DAFB;
-            font-size: 4em;
-            font-weight: normal;
-            letter-spacing: 2px;
-            margin: 0.16em;
+            .rotate {
+                animation: spin 10s linear infinite;
+            }
+
+            h1 {
+                color: #529baf;
+                font-size: 4em;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin: 0.6rem;
+                margin-bottom: 4rem;
+            }
         }
     }
 }
